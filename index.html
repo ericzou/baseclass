@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <link rel="stylesheet" href="./css/bootstrap.css"/>
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400' rel='stylesheet' type='text/css'>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>baseclass.io</title>
+  <style type="text/css">
+    @font-face {
+      font-family: 'proxima_nova_rgregular';
+      src: url('./fonts/proximanova-regular-webfont.eot');
+      src: url('./fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/proximanova-regular-webfont.woff') format('woff'),
+      url('./fonts/proximanova-regular-webfont.ttf') format('truetype'),
+      url('./fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+      font-weight: normal;
+      font-style: normal;
+
+    }
+
+    body {
+
+
+    }
+
+    .navbar {
+      background-color: #3284F4;
+      border: none;
+    }
+
+    .navbar-default .navbar-brand {
+      color: white;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: lighter;
+      font-size: 32px;
+    }
+
+    .shout-out {
+      font-family: 'proxima_nova_rgregular', sans-serif;
+      font-size: 86px;
+      color: #FFFFFF;
+      line-height: 102px;
+    }
+
+    .header {
+      background-color: #3284F4;
+      color: white;
+    }
+
+    .main {
+      background-color: #3284F4;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      color: white;
+    }
+
+    .services {
+      background-color: #F5F5F5;
+      padding: 30px 0 70px 0;
+    }
+
+    .services-heading {
+      font-family: 'proxima_nova_rgregular', sans-serif;
+      font-size: 36px;
+      color: #333333;
+      line-height: 42px;
+      /* We are experts in we: */
+      width: 590px;
+    }
+
+    .services-text {
+      font-family: Helvetica-Light;
+      font-size: 18px;
+      color: #979797;
+      line-height: 22px;
+      width: 540px;
+    }
+
+    .service-heading {
+      font-family: Helvetica;
+      font-size: 18px;
+      color: #333333;
+      line-height: 22px;
+    }
+
+    .service-text {
+      font-family: Helvetica;
+      font-size: 14px;
+      color: #979797;
+      line-height: 17px;
+      /* We help clients boot: */
+    }
+
+    .service-icon {
+      font-size: 86px;
+      float: left;
+      margin-right: 20px;
+    }
+
+    .service-wrapper {
+      margin-top: 15px;
+    }
+
+    .service-heading {
+      margin-bottom: 10px;
+    }
+
+    .services table {
+      table-layout: fixed;
+      width: 100%;
+      /*margin-top: 30px;*/
+    }
+
+    .services table td{
+      /*padding-right: 100px;*/
+      padding-top: 46px;
+    }
+
+    .service-wrapper {
+      width: 500px;
+    }
+
+    .service-bootstrap {
+      color: #ee6849;
+    }
+
+    .service-augment {
+      color: #3fcd8c;
+    }
+
+    .service-training {
+      color: #eebb49;
+    }
+
+    .service-build-team {
+      color: #783fcd;
+    }
+
+    .contact {
+      padding: 100px 0;
+    }
+
+    .contact-inner {
+      width: 500px;
+      text-align: center;
+    }
+
+    .email {
+      font-size: 32px;
+      color: #333;
+      font-weight: normal;
+      font-family: Helvetica;
+      text-align: center;
+    }
+
+    .contact-icon{
+      font-size: 56px;
+      text-align: center;
+    }
+
+
+  </style>
+</head>
+<body>
+<div class="header">
+  <div class="container">
+    <div class="navbar navbar-default">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="">:baseclass</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="main">
+  <div class="container">
+    <h1 class="shout-out">Let's Build a Start Up, Together.</h1>
+  </div>
+</div>
+
+<div class="services">
+  <div class="container">
+    <h2 class="services-heading center-block">We are experts in web development</h2>
+    <div class="services-text center-block">We specialize in Ruby on Rails, AngularJS, and Data Visualization</div>
+
+    <table>
+      <tr>
+        <td>
+          <icon class="fa fa-rocket service-icon service-bootstrap"></icon>
+          <div class="service-wrapper">
+            <div class="service-heading">Bootstrap and Launch the product</div>
+            <p class="service-text">We help clients bootstrap their product and process, setting up servers and iteration schedule.</p>
+          </div>
+        </td>
+        <td>
+          <icon class="fa fa-users service-icon service-augment"></icon>
+          <div class="service-wrapper">
+            <div class="service-heading">Augment Development Team</div>
+            <p class="service-text">We join your existing dvelopment team as additional resource for a upcoming deadline.</p>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <icon class="fa fa-mortar-board service-icon service-training"></icon>
+          <div class="service-wrapper">
+            <div class="service-heading">Training</div>
+            <p class="service-text">We mentor your junior developers, share knowledge and best practices with them</p>
+          </div>
+        </td>
+        <td>
+          <icon class="fa fa-cogs service-icon service-build-team"></icon>
+          <div class="service-wrapper">
+            <div class="service-heading">Build Development Team</div>
+            <p class="service-text">We help you interview and find the right engineers for the team</p>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<div class="contact">
+  <div class="container">
+    <div class="center-block contact-inner">
+      <icon class="contact-icon fa fa-envelope-o"></icon>
+      <div class="email">hello@baseclass.io</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>t
